@@ -1,0 +1,1813 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* STYLING FOR ABOUT PAGE */
+main{
+    width: 100%;
+    height: 77.5vh;
+    background-color: rgb(0, 0, 0);
+}
+main .bcg-img {
+    /* display: none; */
+    width: 100%;
+    height: 77vh;
+}
+main .bcg-img img{
+    width: 100%;
+    height: 77vh;
+}
+main .overlay{
+    width: 100%;
+    height: 77vh;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .overlay p{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 185px;
+    height: 60px;
+    top: 196px;
+    left: 627px;
+    gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+        
+}
+
+@media screen and (max-width:429px) {
+    main{
+        width: 100%;
+        height: 42.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 270px;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 42vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 42vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 42vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 270px;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+@media screen and (min-width:430px) {
+    main{
+        width: 100%;
+        height: 42.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 270px;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 42vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 42vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 42vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 270px;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+@media screen and (min-width:540px) {
+    main{
+        width: 100%;
+        height: 42.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 42vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 42vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 42vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+@media screen and (min-width:768px) {
+    main{
+        width: 100%;
+        height: 40.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 40vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 40vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+@media screen and (min-width:820px) {
+    main{
+        width: 100%;
+        height: 40.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 40vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 40vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+@media screen and (min-width:853px) {
+    main{
+        width: 100%;
+        height: 40.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 40vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 40vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+@media screen and (min-width:912px) {
+    main{
+        width: 100%;
+        height: 47.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 47vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 47vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 47vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+@media screen and (min-width:1024px) {
+    main{
+        width: 100%;
+        height: 77.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 77vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 77vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 77vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+@media screen and (min-width:1280px) {
+    main{
+        width: 100%;
+        height: 77.5vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0;
+    }
+    main .bcg-img {
+        /* display: none; */
+        width: 100%;
+        height: 77vh;
+    }
+    main .bcg-img img{
+        width: 100%;
+        height: 77vh;
+    }
+    main .overlay{
+        width: 100%;
+        height: 77vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    main .overlay p{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 185px;
+        height: 60px;
+        top: 196px;
+        left: 627px;
+        gap: 0px;
+        opacity: 0px;
+        color: #FFFFFF;
+            
+    }
+}
+.about-us{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 100vh;
+}
+.about-us .title{
+    width: 100%;
+    height: 16vh;
+    top: 599px;
+    left: 434px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 48.03px;
+    letter-spacing: 0.01em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    /* background-color:bisque; */
+    text-align: center;
+    text-wrap: wrap;
+}
+.about-us .note{
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: burlywood; */
+}
+.about-us .note section{
+    /* background-color: chocolate; */
+    width: 100%;
+    height: 17vh;
+    top: 678px;
+    left: 268px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.46px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    width: 68%;
+    text-align: center;
+    text-wrap: wrap;
+}
+.about-us .cards{
+    /* background-color: cadetblue; */
+    height: 65vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;  
+}
+.about-us .cards .card{
+    width: 27vw;
+    height: 53vh;
+    top: 865px;
+    left: 112px;
+    gap: 10px;
+    border-radius: 20px ;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.about-us .cards .card .card-img{
+    /* background-color: aquamarine; */
+    width: 100%;
+    text-align: center;
+}
+.about-us .cards .card .card-title{
+    width: 100%;
+    height: 34px;
+    top: 1034px;
+    left: 271px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 33.8px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    /* background-color:bisque; */
+}
+.about-us .cards .card .card-note{
+    width: 25vw;
+    height: 20vh;
+    top: 1090px;
+    left: 136px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.91px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #808080;
+    /* background-color: crimson;    */
+}
+@media screen and (max-width:429px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 250vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 15vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 35vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 38.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 98%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 200vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;  
+    }
+    .about-us .cards .card{
+        width: 81vw;
+        height: 60vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 44px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 100%;
+        height: 30vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+   
+}
+@media screen and (max-width:390px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 270vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 18vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 47vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 38.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 98%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 200vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;  
+    }
+    .about-us .cards .card{
+        width: 90vw;
+        height: 60vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 44px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 100%;
+        height: 30vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 34.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+   
+}
+@media screen and (min-width:430px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 250vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 15vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 35vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 38.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 98%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 200vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;  
+    }
+    .about-us .cards .card{
+        width: 81vw;
+        height: 60vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 44px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 100%;
+        height: 30vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+   
+}
+@media screen and (min-width:540px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 250vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 15vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 35vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 38.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 98%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 200vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;  
+    }
+    .about-us .cards .card{
+        width: 81vw;
+        height: 60vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 44px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 100%;
+        height: 30vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+   
+}
+@media screen and (min-width:768px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 210vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 10vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 27vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 25vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 38.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 98%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 165vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;  
+    }
+    .about-us .cards .card{
+        width: 81vw;
+        height: 50vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 44px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 100%;
+        height: 27vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+   
+}
+@media screen and (min-width:820px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 76vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 10vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 18vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 17vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 38.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 98%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 48vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;  
+    }
+    .about-us .cards .card{
+        width: 31vw;
+        height: 44vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 34px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 25vw;
+        height: 28vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+   
+}
+@media screen and (min-width:853px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 71vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 10vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 15vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 38.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 98%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 45vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;  
+    }
+    .about-us .cards .card{
+        width: 31vw;
+        height: 40vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 34px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 25vw;
+        height: 25vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+}
+@media screen and (min-width:912px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 71vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 10vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 15vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 38.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 98%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 45vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;  
+    }
+    .about-us .cards .card{
+        width: 31vw;
+        height: 40vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 34px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 25vw;
+        height: 25vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+}
+@media screen and (min-width:1024px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 100vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 16vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 22vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 20vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 68%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 65vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;  
+    }
+    .about-us .cards .card{
+        width: 27vw;
+        height: 60vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 34px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 25vw;
+        height: 25vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+}
+@media screen and (min-width:1280px) {
+    .about-us{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 100vh;
+    }
+    .about-us .title{
+        width: 100%;
+        height: 16vh;
+        top: 599px;
+        left: 434px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 48.03px;
+        letter-spacing: 0.01em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background-color:bisque; */
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .note{
+        width: 100%;
+        height: 22vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: burlywood; */
+    }
+    .about-us .note section{
+        /* background-color: chocolate; */
+        width: 100%;
+        height: 17vh;
+        top: 678px;
+        left: 268px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28.46px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        width: 68%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .about-us .cards{
+        /* background-color: cadetblue; */
+        height: 65vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;  
+    }
+    .about-us .cards .card{
+        width: 27vw;
+        height: 53vh;
+        top: 865px;
+        left: 112px;
+        gap: 10px;
+        border-radius: 20px ;
+        opacity: 0px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .about-us .cards .card .card-img{
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .cards .card .card-title{
+        width: 100%;
+        height: 34px;
+        top: 1034px;
+        left: 271px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 33.8px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        /* background-color:bisque; */
+    }
+    .about-us .cards .card .card-note{
+        width: 25vw;
+        height: 20vh;
+        top: 1090px;
+        left: 136px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24.91px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #808080;
+        /* background-color: crimson;    */
+    }
+}
+footer{
+    /* display: none; */
+    margin-top: 40px;
+}

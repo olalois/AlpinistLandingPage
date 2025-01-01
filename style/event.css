@@ -1,0 +1,2324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.events{
+    width: auto;
+    height: 100vh;
+}
+.events .background-img{
+    width: auto;
+    height: 100vh;
+}
+.events .background-img img{
+    width: 100%;
+    height: 100vh;
+}
+.events .overlay{
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.events .overlay .head{
+    /* background-color: blue; */
+    width: 100%;
+    height: 10vh;
+    top: 176px;
+    left: 574px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-top: 170px;
+}
+.events .overlay .note{
+    /* background-color: chartreuse; */
+    width: 65%;
+    height: auto;
+    top: 289px;
+    left: 250px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+.events .overlay button{
+    width: 12vw;
+    height: 8vh;
+    padding: 0;
+    border-radius: 7.98px ;
+    opacity: 0px;
+    background: #FBFBFB;
+    font-family: Poppins;
+    font-size: 15.96px;
+    font-weight: 400;
+    text-align: center;
+    color: #560185;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.events .overlay button:hover{
+    box-shadow: 0px 7px 0px 0px black;
+}
+
+
+@media screen and (max-width:429px) {
+    .events{
+        width: auto;
+        height: 30vh;
+        margin-top: 370px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 30vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 30vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 370px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 6vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 95%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 27vw;
+        height: 4vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+@media screen and (max-width:375px) {
+    .events{
+        width: auto;
+        height: 35vh;
+        margin-top: 280px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 35vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 35vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 35vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 280px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 4vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 95%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 30vw;
+        height: 4vh;
+        padding: 0;
+        border-radius: 4px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 0px 0px 0px black;
+    }
+}
+@media screen and (min-width:430px) {
+    .events{
+        width: auto;
+        height: 30vh;
+        margin-top: 370px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 30vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 30vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 370px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 6vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 95%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 27vw;
+        height: 4vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+@media screen and (min-width:540px) {
+    .events{
+        width: auto;
+        height: 60vh;
+        margin-top: 100px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 60vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 60vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 60vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 100px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 10vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 95%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 24vw;
+        height: 6vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+@media screen and (min-width:768px) {
+    .events{
+        width: auto;
+        height: 60vh;
+        margin-top: 0px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 60vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 60vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 60vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 0px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 10vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 170px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 95%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 20vw;
+        height: 4vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 18.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+@media screen and (min-width:820px) {
+    .events{
+        width: auto;
+        height: 50vh;
+        margin-top: 0px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 50vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 50vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 0px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 10vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 170px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 95%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 20vw;
+        height: 4vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 18.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+@media screen and (min-width:853px) {
+    .events{
+        width: auto;
+        height: 50vh;
+        margin-top: 0px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 50vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 50vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 0px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 10vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 170px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 95%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 20vw;
+        height: 4vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 18.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+@media screen and (min-width:912px) {
+    .events{
+        width: auto;
+        height: 50vh;
+        margin-top: 0px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 50vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 50vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 0px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 10vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 170px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 95%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 20vw;
+        height: 4vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 18.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+@media screen and (min-width:1024px) {
+    .events{
+        width: auto;
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 100vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 100vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 0px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 10vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 170px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 65%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 12vw;
+        height: 8vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+@media screen and (min-width:1280px) {
+    .events{
+        width: auto;
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .events .background-img{
+        width: auto;
+        height: 100vh;
+    }
+    .events .background-img img{
+        width: 100%;
+        height: 100vh;
+    }
+    .events .overlay{
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 0px;
+    }
+    .events .overlay .head{
+        /* background-color: blue; */
+        width: 100%;
+        height: 10vh;
+        top: 176px;
+        left: 574px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-top: 170px;
+    }
+    .events .overlay .note{
+        /* background-color: chartreuse; */
+        width: 65%;
+        height: auto;
+        top: 289px;
+        left: 250px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    }
+    .events .overlay button{
+        width: 12vw;
+        height: 8vh;
+        padding: 0;
+        border-radius: 7.98px ;
+        opacity: 0px;
+        background: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        text-align: center;
+        color: #560185;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .events .overlay button:hover{
+        box-shadow: 0px 7px 0px 0px black;
+    }
+}
+
+.upcoming-events{
+    width: 100%;
+    height: auto;
+    /* background-color: crimson; */
+}
+.upcoming-events .header{
+    width: 100%;
+    height: 20vh;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 45.82px;
+    font-weight: 700;
+    line-height: 68.73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    /* background-color: #560185; */
+}
+.upcoming-events .cards{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    /* align-items: center; */
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+    /* background-color: #004004; */
+}
+.upcoming-events .cards .card{
+    width: 27vw;
+    height: 57vh;
+    gap: 0px;
+    border-radius: 21.71px ;
+    opacity: 0px;  
+    background: #FFFFFF;
+ 
+}
+.upcoming-events .cards .card .card-img{
+    width: 27vw;
+    height: 32vh;
+    left: 0px;
+    gap: 0px;
+    border-radius: 21.71px 21.71px 0px 0px;
+    opacity: 0px; 
+    /* background-color: black;    */
+}
+.upcoming-events .cards .card .card-img img{
+    width: 27vw;
+    height: 32vh;
+    left: 0px;
+    gap: 0px;
+    border-radius: 21.71px 21.71px 0px 0px;
+    opacity: 0px;   
+}
+.upcoming-events .cards .card .card-flex{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.upcoming-events .cards .card .card-flex .card-date{
+    /* background: #560185; */
+    width: 6.5vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upcoming-events .cards .card .card-flex .card-date .month{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D37F1;
+}
+.upcoming-events .cards .card .card-flex .card-date .date{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.upcoming-events .cards .card .card-flex .card-writeup{
+    width: 21vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background: #3D37F1; */
+    gap: 15px;
+}
+.upcoming-events .cards .card .card-flex .card-writeup .card-header{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-top: 20px;
+}
+.upcoming-events .cards .card .card-flex .card-writeup .card-note{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #6A6A6A;
+    
+}
+
+
+
+@media screen and (max-width:429px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 10vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 30px;
+        grid-template-columns: auto ;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 90vw;
+        height: 47vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 90vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 90vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 22vw;
+        height: 14.9vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 69vw;
+        height: 14.9vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 10vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 30px;
+        grid-template-columns: auto ;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 90vw;
+        height: 57vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 90vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 90vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 22vw;
+        height: 24.9vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 69vw;
+        height: 24.9vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (min-width:430px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 10vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 30px;
+        grid-template-columns: auto ;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 90vw;
+        height: 47vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 90vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 90vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 22vw;
+        height: 14.9vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 69vw;
+        height: 14.9vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (min-width:540px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 10vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 35.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 10px;
+        grid-template-columns: auto auto;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 47vw;
+        height: 57vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 47vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 47vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 11vw;
+        height: 24.9vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 36vw;
+        height: 24.9vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 10vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 45.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 20px;
+        grid-template-columns: auto auto;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 45vw;
+        height: 37vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 45vw;
+        height: 22vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 45vw;
+        height: 22vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 10.5vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 35vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (min-width:820px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 10vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 45.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 20px;
+        grid-template-columns: auto auto;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 45vw;
+        height: 37vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 45vw;
+        height: 22vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 45vw;
+        height: 22vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 10.5vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 35vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (min-width:853px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 12vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 45.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 30px;
+        grid-template-columns: auto auto;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 45vw;
+        height: 37vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 45vw;
+        height: 22vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 45vw;
+        height: 22vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 10.5vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 35vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (min-width:912px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 12vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 45.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 30px;
+        grid-template-columns: auto auto;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 45vw;
+        height: 37vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 45vw;
+        height: 22vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 45vw;
+        height: 22vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 10.5vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 35vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 20vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 45.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 30px;
+        grid-template-columns: auto auto auto;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 27vw;
+        height: 57vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 27vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 27vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 6.5vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 21vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
+@media screen and (min-width:1280px) {
+    .upcoming-events{
+        width: 100%;
+        height: auto;
+        /* background-color: crimson; */
+    }
+    .upcoming-events .header{
+        width: 100%;
+        height: 20vh;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 45.82px;
+        font-weight: 700;
+        line-height: 68.73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        /* background-color: #560185; */
+    }
+    .upcoming-events .cards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        /* align-items: center; */
+        gap: 30px;
+        grid-template-columns: auto auto auto;
+        /* background-color: #004004; */
+    }
+    .upcoming-events .cards .card{
+        width: 27vw;
+        height: 57vh;
+        gap: 0px;
+        border-radius: 21.71px ;
+        opacity: 0px;  
+        background: #FFFFFF;
+     
+    }
+    .upcoming-events .cards .card .card-img{
+        width: 27vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px; 
+        /* background-color: black;    */
+    }
+    .upcoming-events .cards .card .card-img img{
+        width: 27vw;
+        height: 32vh;
+        left: 0px;
+        gap: 0px;
+        border-radius: 21.71px 21.71px 0px 0px;
+        opacity: 0px;   
+    }
+    .upcoming-events .cards .card .card-flex{
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .upcoming-events .cards .card .card-flex .card-date{
+        /* background: #560185; */
+        width: 6.5vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .month{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #3D37F1;
+    }
+    .upcoming-events .cards .card .card-flex .card-date .date{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup{
+        width: 21vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background: #3D37F1; */
+        gap: 15px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-header{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .upcoming-events .cards .card .card-flex .card-writeup .card-note{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A6A6A;
+        
+    }
+    
+}
