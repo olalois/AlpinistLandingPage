@@ -162,8 +162,8 @@
 @media screen and (max-width:429px) {
     .background{
         width: 100%;
-        height: 35vh;
-        margin-top: 270px;
+        height: 25vh;
+        margin-top: 40px;
     }
     .background .prog-img{
         width: 100%;
@@ -175,19 +175,19 @@
     }
     .background .overlay{
         width: 100%;
-        height: 35vh;
+        height: 25vh;
         background-color: rgb(0, 0, 0, 0.5);
         position: absolute;
         top: 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 270px;
+        margin-top: 40px;
     }
     .meet-us{
         /* background-color: burlywood; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         padding: 10px 0;
     }
     .meet-us .head{
@@ -199,9 +199,9 @@
         gap: 0px;
         opacity: 0px;
         font-family: Poppins;
-        font-size: 72px;
-        font-weight: 800;
-        line-height: 86px;
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 50px;
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
@@ -223,8 +223,8 @@
         text-wrap: wrap;
         word-wrap: break-word;
         font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: 200;
         line-height: 30px;
         text-align: center;
         text-underline-position: from-font;
@@ -236,7 +236,7 @@
      .meet-us .cards{
         /* background-color: chartreuse; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         justify-content: center;
         padding: 12px 0;
         display: grid;
@@ -245,7 +245,7 @@
      }
      .meet-us .cards .card{
         width: 350px;
-        height: 63vh;
+        height: 50vh;
         gap: 0px;
         border-radius:23.78px 23.78px 23.78px 23.78px;
         border: 1.03px;
@@ -256,7 +256,7 @@
     }
     .meet-us .cards .card .card-img{
         width: 100%;
-        height: 39vh;
+        height: 25vh;
         padding: 0;
         margin: 0;
         gap: 0px;
@@ -268,7 +268,7 @@
     }
     .meet-us .cards .card .card-img img{
         width: 100%;
-        height: 290px;
+        height: 25vh;
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
@@ -316,7 +316,7 @@
     .meet-us .cards .card .card-socials ul{
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 40px;
     }
     .meet-us .cards .card .card-socials ul li{
         list-style: none;
@@ -326,8 +326,8 @@
 @media screen and (min-width:430px) {
     .background{
         width: 100%;
-        height: 25vh;
-        margin-top: 270px;
+        height: 20vh;
+        margin-top: 50px;
     }
     .background .prog-img{
         width: 100%;
@@ -339,19 +339,19 @@
     }
     .background .overlay{
         width: 100%;
-        height: 25vh;
+        height: 20vh;
         background-color: rgb(0, 0, 0, 0.5);
         position: absolute;
         top: 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 270px;
+        margin-top: 50px;
     }
     .meet-us{
         /* background-color: burlywood; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         padding: 10px 0;
     }
     .meet-us .head{
@@ -363,9 +363,9 @@
         gap: 0px;
         opacity: 0px;
         font-family: Poppins;
-        font-size: 72px;
-        font-weight: 800;
-        line-height: 86px;
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 56px;
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
@@ -387,8 +387,8 @@
         text-wrap: wrap;
         word-wrap: break-word;
         font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: 200;
         line-height: 30px;
         text-align: center;
         text-underline-position: from-font;
@@ -400,7 +400,7 @@
      .meet-us .cards{
         /* background-color: chartreuse; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         justify-content: center;
         padding: 12px 0;
         display: grid;
@@ -409,7 +409,7 @@
      }
      .meet-us .cards .card{
         width: 350px;
-        height: 50vh;
+        height: 55vh;
         gap: 0px;
         border-radius:23.78px 23.78px 23.78px 23.78px;
         border: 1.03px;
@@ -432,7 +432,338 @@
     }
     .meet-us .cards .card .card-img img{
         width: 100%;
-        height: 290px;
+        height: 32vh;
+        gap: 0px;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+    }
+    .meet-us .cards .card .card-title{
+        width: 100%;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 25px ;
+        /* background-color: brown; */
+    }
+    .meet-us .cards .card .card-name{
+        width: 100%;
+        height: 36px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 10px ;
+    }
+    .meet-us .cards .card .card-socials{
+        /* background-color: aquamarine; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px ;
+    }
+    .meet-us .cards .card .card-socials ul{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .meet-us .cards .card .card-socials ul li{
+        list-style: none;
+    }
+    
+}
+@media screen and (min-width:540px) {
+    .background{
+        width: 100%;
+        height: 35vh;
+        margin-top: 80px;
+    }
+    .background .prog-img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .prog-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .overlay{
+        width: 100%;
+        height: 35vh;
+        background-color: rgb(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .meet-us{
+        /* background-color: burlywood; */
+        width: 100%;
+        height: fit-content;
+        padding: 10px 0;
+    }
+    .meet-us .head{
+        /* background: gold; */
+        width: 100%;
+        height: auto;
+        top: 692px;
+        left: 237px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 66px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+            
+    }
+    .meet-us .note{
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 0px 0;
+    }
+     .meet-us .note section{
+        width: 845px;
+        height: auto;
+        text-wrap: wrap;
+        word-wrap: break-word;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 20px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 10px 0;
+        color: #FFFFFF;
+        /* background-color: coral; */
+     }
+     .meet-us .cards{
+        /* background-color: chartreuse; */
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        padding: 12px 0;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: auto   ;
+     }
+     .meet-us .cards .card{
+        width: 350px;
+        height: 55vh;
+        gap: 0px;
+        border-radius:23.78px 23.78px 23.78px 23.78px;
+        border: 1.03px;
+        opacity: 0px;
+        background: #D9D9D9;
+        border: 1.03px solid #C4C4C4;
+    
+    }
+    .meet-us .cards .card .card-img{
+        width: 100%;
+        height: 30vh;
+        padding: 0;
+        margin: 0;
+        gap: 0px;
+        border: none;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+        /* background-color: rgb(0, 0, 0); */
+        /* display: none; */
+        background-size: contain;
+    }
+    .meet-us .cards .card .card-img img{
+        width: 100%;
+        height: 30vh;
+        gap: 0px;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+        background-size: contain;
+    }
+    .meet-us .cards .card .card-title{
+        width: 100%;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 25px ;
+        /* background-color: brown; */
+    }
+    .meet-us .cards .card .card-name{
+        width: 100%;
+        height: 36px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 10px ;
+    }
+    .meet-us .cards .card .card-socials{
+        /* background-color: aquamarine; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px ;
+    }
+    .meet-us .cards .card .card-socials ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .meet-us .cards .card .card-socials ul li{
+        list-style: none;
+    }
+    
+}
+@media screen and (min-width:720px) and (orientation:landscape) {
+    .background{
+        width: 100%;
+        height: 50vh;
+        margin-top: 50px;
+    }
+    .background .prog-img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .prog-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .overlay{
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .meet-us{
+        /* background-color: burlywood; */
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+    .meet-us .head{
+        /* background: rgb(219, 189, 19); */
+        width: 100%;
+        height: auto;
+        top: 692px;
+        left: 237px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 62px;
+        font-weight: 600;
+        line-height: 86px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+            
+    }
+    .meet-us .note{
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px 0px;
+    }
+     .meet-us .note section{
+        width: 845px;
+        height: auto;
+        text-wrap: wrap;
+        word-wrap: break-word;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 30px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 10px 0;
+        color: #FFFFFF;
+        /* background-color: coral; */
+        padding: 0 5px;
+     }
+     .meet-us .cards{
+        /* background-color: chartreuse; */
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        padding: 12px 0;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: auto auto  ;
+     }
+     .meet-us .cards .card{
+        width: 45vw;
+        height: 60vh;
+        gap: 0px;
+        border-radius:23.78px 23.78px 23.78px 23.78px;
+        border: 1.03px;
+        opacity: 0px;
+        background: #D9D9D9;
+        border: 1.03px solid #C4C4C4;
+    
+    }
+    .meet-us .cards .card .card-img{
+        width: 100%;
+        height: 30vh;
+        padding: 0;
+        margin: 0;
+        gap: 0px;
+        border: none;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+        /* background-color: rgb(0, 0, 0); */
+        /* display: none; */
+    }
+    .meet-us .cards .card .card-img img{
+        width: 100%;
+        height: 30vh;
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
@@ -487,11 +818,11 @@
     }
     
 }
-@media screen and (min-width:540px) {
+@media screen and (min-width:740px) and (orientation:landscape) {
     .background{
         width: 100%;
-        height: 35vh;
-        margin-top: 0;
+        height: 80vh;
+        margin-top: 40px;
     }
     .background .prog-img{
         width: 100%;
@@ -503,19 +834,19 @@
     }
     .background .overlay{
         width: 100%;
-        height: 35vh;
+        height: 80vh;
         background-color: rgb(0, 0, 0, 0.5);
         position: absolute;
         top: 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 40px;
     }
     .meet-us{
         /* background-color: burlywood; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         padding: 10px 0;
     }
     .meet-us .head{
@@ -527,8 +858,8 @@
         gap: 0px;
         opacity: 0px;
         font-family: Poppins;
-        font-size: 72px;
-        font-weight: 800;
+        font-size: 62px;
+        font-weight: 600;
         line-height: 86px;
         text-align: center;
         text-underline-position: from-font;
@@ -551,32 +882,32 @@
         text-wrap: wrap;
         word-wrap: break-word;
         font-family: Poppins;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 30px;
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        padding: 10px 0;
+        padding: 10px 5px;
         color: #FFFFFF;
         /* background-color: coral; */
      }
      .meet-us .cards{
         /* background-color: chartreuse; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         justify-content: center;
         padding: 12px 0;
         display: grid;
         gap: 15px;
-        grid-template-columns: auto   ;
+        grid-template-columns: auto auto ;
      }
      .meet-us .cards .card{
-        width: 350px;
-        height: 66vh;
+        width: 285px;
+        height: 120vh;
         gap: 0px;
         border-radius:23.78px 23.78px 23.78px 23.78px;
-        border: 1.03px;
+        border: 1.03px 0px 0px 0px;
         opacity: 0px;
         background: #D9D9D9;
         border: 1.03px solid #C4C4C4;
@@ -584,19 +915,15 @@
     }
     .meet-us .cards .card .card-img{
         width: 100%;
-        height: 40vh;
-        padding: 0;
-        margin: 0;
+        height: 244.33px;
         gap: 0px;
-        border: none;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
-        /* background-color: rgb(0, 0, 0); */
-        /* display: none; */
+        background: #D9D9D9;
     }
     .meet-us .cards .card .card-img img{
         width: 100%;
-        height: 290px;
+        height: 240px;
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
@@ -655,7 +982,7 @@
     .background{
         width: 100%;
         height: 35vh;
-        margin-top: 0;
+        margin-top: 80px;
     }
     .background .prog-img{
         width: 100%;
@@ -674,16 +1001,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 80px;
     }
     .meet-us{
         /* background-color: burlywood; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         padding: 10px 0;
     }
     .meet-us .head{
-        /* background: gold; */
+        /* background: rgb(219, 189, 19); */
         width: 100%;
         height: auto;
         top: 692px;
@@ -691,8 +1018,8 @@
         gap: 0px;
         opacity: 0px;
         font-family: Poppins;
-        font-size: 72px;
-        font-weight: 800;
+        font-size: 62px;
+        font-weight: 600;
         line-height: 86px;
         text-align: center;
         text-underline-position: from-font;
@@ -707,7 +1034,7 @@
         justify-content: center;
         align-items: center;
         height: auto;
-        padding: 10px 0;
+        padding: 10px 0px;
     }
      .meet-us .note section{
         width: 845px;
@@ -715,8 +1042,8 @@
         text-wrap: wrap;
         word-wrap: break-word;
         font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: 200;
         line-height: 30px;
         text-align: center;
         text-underline-position: from-font;
@@ -724,6 +1051,7 @@
         padding: 10px 0;
         color: #FFFFFF;
         /* background-color: coral; */
+        padding: 0 5px;
      }
      .meet-us .cards{
         /* background-color: chartreuse; */
@@ -737,7 +1065,7 @@
      }
      .meet-us .cards .card{
         width: 350px;
-        height: 46vh;
+        height: 38vh;
         gap: 0px;
         border-radius:23.78px 23.78px 23.78px 23.78px;
         border: 1.03px;
@@ -748,7 +1076,7 @@
     }
     .meet-us .cards .card .card-img{
         width: 100%;
-        height: 29vh;
+        height: 21vh;
         padding: 0;
         margin: 0;
         gap: 0px;
@@ -760,7 +1088,7 @@
     }
     .meet-us .cards .card .card-img img{
         width: 100%;
-        height: 290px;
+        height: 21vh;
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
@@ -818,8 +1146,8 @@
 @media screen and (min-width:820px) {
     .background{
         width: 100%;
-        height: 35vh;
-        margin-top: 0;
+        height: 30vh;
+        margin-top: 80px;
     }
     .background .prog-img{
         width: 100%;
@@ -831,14 +1159,14 @@
     }
     .background .overlay{
         width: 100%;
-        height: 35vh;
+        height: 30vh;
         background-color: rgb(0, 0, 0, 0.5);
         position: absolute;
         top: 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 80px;
     }
     .meet-us{
         /* background-color: burlywood; */
@@ -855,8 +1183,8 @@
         gap: 0px;
         opacity: 0px;
         font-family: Poppins;
-        font-size: 72px;
-        font-weight: 800;
+        font-size: 62px;
+        font-weight: 600;
         line-height: 86px;
         text-align: center;
         text-underline-position: from-font;
@@ -879,8 +1207,8 @@
         text-wrap: wrap;
         word-wrap: break-word;
         font-family: Poppins;
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 18px;
+        font-weight: 200;
         line-height: 30px;
         text-align: center;
         text-underline-position: from-font;
@@ -892,7 +1220,7 @@
      .meet-us .cards{
         /* background-color: chartreuse; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         justify-content: center;
         padding: 12px 0;
         display: grid;
@@ -901,7 +1229,7 @@
      }
      .meet-us .cards .card{
         width: 350px;
-        height: 33vh;
+        height: 38vh;
         gap: 0px;
         border-radius:23.78px 23.78px 23.78px 23.78px;
         border: 1.03px;
@@ -912,7 +1240,7 @@
     }
     .meet-us .cards .card .card-img{
         width: 100%;
-        height: 20vh;
+        height: 21.5vh;
         padding: 0;
         margin: 0;
         gap: 0px;
@@ -922,7 +1250,7 @@
     }
     .meet-us .cards .card .card-img img{
         width: 100%;
-        height: 20vh;
+        height: 21.5vh;
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
@@ -980,8 +1308,8 @@
 @media screen and (min-width:853px) {
     .background{
         width: 100%;
-        height: 35vh;
-        margin-top: 0;
+        height: 30vh;
+        margin-top: 100px;
     }
     .background .prog-img{
         width: 100%;
@@ -993,19 +1321,19 @@
     }
     .background .overlay{
         width: 100%;
-        height: 35vh;
+        height: 30vh;
         background-color: rgb(0, 0, 0, 0.5);
         position: absolute;
         top: 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 100px;
     }
     .meet-us{
         /* background-color: burlywood; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         padding: 10px 0;
     }
     .meet-us .head{
@@ -1017,8 +1345,8 @@
         gap: 0px;
         opacity: 0px;
         font-family: Poppins;
-        font-size: 72px;
-        font-weight: 800;
+        font-size: 62px;
+        font-weight: 600;
         line-height: 86px;
         text-align: center;
         text-underline-position: from-font;
@@ -1041,7 +1369,7 @@
         text-wrap: wrap;
         word-wrap: break-word;
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 30px;
         text-align: center;
@@ -1054,7 +1382,7 @@
      .meet-us .cards{
         /* background-color: chartreuse; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         justify-content: center;
         padding: 12px 0;
         display: grid;
@@ -1063,7 +1391,7 @@
      }
      .meet-us .cards .card{
         width: 350px;
-        height: 33vh;
+        height: 37vh;
         gap: 0px;
         border-radius:23.78px 23.78px 23.78px 23.78px;
         border: 1.03px;
@@ -1074,7 +1402,7 @@
     }
     .meet-us .cards .card .card-img{
         width: 100%;
-        height: 20vh;
+        height: 21.5vh;
         padding: 0;
         margin: 0;
         gap: 0px;
@@ -1084,7 +1412,7 @@
     }
     .meet-us .cards .card .card-img img{
         width: 100%;
-        height: 20vh;
+        height: 100%;
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
@@ -1142,8 +1470,8 @@
 @media screen and (min-width:912px) {
     .background{
         width: 100%;
-        height: 35vh;
-        margin-top: 0;
+        height: 30vh;
+        margin-top: 130px;
     }
     .background .prog-img{
         width: 100%;
@@ -1155,19 +1483,19 @@
     }
     .background .overlay{
         width: 100%;
-        height: 35vh;
+        height: 30vh;
         background-color: rgb(0, 0, 0, 0.5);
         position: absolute;
         top: 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 130px;
     }
     .meet-us{
         /* background-color: burlywood; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         padding: 10px 0;
     }
     .meet-us .head{
@@ -1179,8 +1507,8 @@
         gap: 0px;
         opacity: 0px;
         font-family: Poppins;
-        font-size: 72px;
-        font-weight: 800;
+        font-size: 62px;
+        font-weight: 600;
         line-height: 86px;
         text-align: center;
         text-underline-position: from-font;
@@ -1203,7 +1531,7 @@
         text-wrap: wrap;
         word-wrap: break-word;
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 30px;
         text-align: center;
@@ -1216,7 +1544,7 @@
      .meet-us .cards{
         /* background-color: chartreuse; */
         width: 100%;
-        height: fit-content;
+        height: auto;
         justify-content: center;
         padding: 12px 0;
         display: grid;
@@ -1224,7 +1552,7 @@
         grid-template-columns: auto auto auto ;
      }
      .meet-us .cards .card{
-        width: 294px;
+        width: 285px;
         height: 33vh;
         gap: 0px;
         border-radius:23.78px 23.78px 23.78px 23.78px;
@@ -1240,10 +1568,331 @@
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
+        background: #D9D9D9;
     }
     .meet-us .cards .card .card-img img{
         width: 100%;
+        height: 240px;
+        gap: 0px;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+    }
+    .meet-us .cards .card .card-title{
+        width: 100%;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 25px ;
+        /* background-color: brown; */
+    }
+    .meet-us .cards .card .card-name{
+        width: 100%;
+        height: 36px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 10px ;
+    }
+    .meet-us .cards .card .card-socials{
+        /* background-color: aquamarine; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px ;
+    }
+    .meet-us .cards .card .card-socials ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .meet-us .cards .card .card-socials ul li{
+        list-style: none;
+    }
+    
+}
+@media screen and (min-width:915px) and (orientation:landscape) {
+    .background{
+        width: 100%;
+        height: 80vh;
+        margin-top: 70px;
+    }
+    .background .prog-img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .prog-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .overlay{
+        width: 100%;
+        height: 80vh;
+        background-color: rgb(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .meet-us{
+        /* background-color: burlywood; */
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+    .meet-us .head{
+        /* background: gold; */
+        width: 100%;
+        height: auto;
+        top: 692px;
+        left: 237px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 62px;
+        font-weight: 600;
+        line-height: 86px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+            
+    }
+    .meet-us .note{
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+     .meet-us .note section{
+        width: 845px;
+        height: auto;
+        text-wrap: wrap;
+        word-wrap: break-word;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 10px 0;
+        color: #FFFFFF;
+        /* background-color: coral; */
+     }
+     .meet-us .cards{
+        /* background-color: chartreuse; */
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding: 12px 0;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: auto auto auto ;
+     }
+     .meet-us .cards .card{
+        width: 285px;
+        height: 100vh;
+        gap: 0px;
+        border-radius:23.78px 23.78px 23.78px 23.78px;
+        border: 1.03px 0px 0px 0px;
+        opacity: 0px;
+        background: #D9D9D9;
+        border: 1.03px solid #C4C4C4;
+    
+    }
+    .meet-us .cards .card .card-img{
+        width: 100%;
         height: 244.33px;
+        gap: 0px;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+        background: #D9D9D9;
+    }
+    .meet-us .cards .card .card-img img{
+        width: 100%;
+        height: 240px;
+        gap: 0px;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+    }
+    .meet-us .cards .card .card-title{
+        width: 100%;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 25px ;
+        /* background-color: brown; */
+    }
+    .meet-us .cards .card .card-name{
+        width: 100%;
+        height: 36px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 10px ;
+    }
+    .meet-us .cards .card .card-socials{
+        /* background-color: aquamarine; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px ;
+    }
+    .meet-us .cards .card .card-socials ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .meet-us .cards .card .card-socials ul li{
+        list-style: none;
+    }
+    
+}
+@media screen and (min-width:932px) and (orientation:landscape) {
+    .background{
+        width: 100%;
+        height: 80vh;
+        margin-top: 70px;
+    }
+    .background .prog-img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .prog-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .overlay{
+        width: 100%;
+        height: 80vh;
+        background-color: rgb(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .meet-us{
+        /* background-color: burlywood; */
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+    .meet-us .head{
+        /* background: gold; */
+        width: 100%;
+        height: auto;
+        top: 692px;
+        left: 237px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 62px;
+        font-weight: 600;
+        line-height: 86px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+            
+    }
+    .meet-us .note{
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+     .meet-us .note section{
+        width: 845px;
+        height: auto;
+        text-wrap: wrap;
+        word-wrap: break-word;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 10px 0;
+        color: #FFFFFF;
+        /* background-color: coral; */
+     }
+     .meet-us .cards{
+        /* background-color: chartreuse; */
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding: 12px 0;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: auto auto auto ;
+     }
+     .meet-us .cards .card{
+        width: 285px;
+        height: 100vh;
+        gap: 0px;
+        border-radius:23.78px 23.78px 23.78px 23.78px;
+        border: 1.03px 0px 0px 0px;
+        opacity: 0px;
+        background: #D9D9D9;
+        border: 1.03px solid #C4C4C4;
+    
+    }
+    .meet-us .cards .card .card-img{
+        width: 100%;
+        height: 244.33px;
+        gap: 0px;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+        background: #D9D9D9;
+    }
+    .meet-us .cards .card .card-img img{
+        width: 100%;
+        height: 240px;
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;
@@ -1384,7 +2033,7 @@
      }
      .meet-us .cards .card{
         width: 294px;
-        height: 65vh;
+        height: 73vh;
         gap: 0px;
         border-radius:23.78px 23.78px 23.78px 23.78px;
         border: 1.03px 0px 0px 0px;
@@ -1460,8 +2109,8 @@
 @media screen and (min-width:1280px) {
     .background{
         width: 100%;
-        height: 95vh;
-        margin-top: 0;
+        height: 80vh;
+        margin-top: 60px;
     }
     .background .prog-img{
         width: 100%;
@@ -1473,14 +2122,14 @@
     }
     .background .overlay{
         width: 100%;
-        height: 95vh;
+        height: 80vh;
         background-color: rgb(0, 0, 0, 0.5);
         position: absolute;
         top: 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 60px;
     }
     .meet-us{
         /* background-color: burlywood; */
@@ -1562,6 +2211,166 @@
     .meet-us .cards .card .card-img img{
         width: 100%;
         height: 244.33px;
+        gap: 0px;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+    }
+    .meet-us .cards .card .card-title{
+        width: 100%;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 25px ;
+        /* background-color: brown; */
+    }
+    .meet-us .cards .card .card-name{
+        width: 100%;
+        height: 36px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6A359C;
+        padding-top: 10px ;
+    }
+    .meet-us .cards .card .card-socials{
+        /* background-color: aquamarine; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px ;
+    }
+    .meet-us .cards .card .card-socials ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .meet-us .cards .card .card-socials ul li{
+        list-style: none;
+    }
+    
+}
+@media screen and (min-width:1368px) and (orientation:landscape) {
+    .background{
+        width: 100%;
+        height: 70vh;
+        margin-top: 80px;
+    }
+    .background .prog-img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .prog-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .background .overlay{
+        width: 100%;
+        height: 70vh;
+        background-color: rgb(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .meet-us{
+        /* background-color: burlywood; */
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+    .meet-us .head{
+        /* background: gold; */
+        width: 100%;
+        height: auto;
+        top: 692px;
+        left: 237px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 82px;
+        font-weight: 800;
+        line-height: 86px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+            
+    }
+    .meet-us .note{
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+     .meet-us .note section{
+        width: 100%;
+        height: auto;
+        text-wrap: wrap;
+        word-wrap: break-word;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 10px 0;
+        color: #FFFFFF;
+        /* background-color: coral; */
+     }
+     .meet-us .cards{
+        /* background-color: chartreuse; */
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding: 12px 0;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: auto auto auto ;
+     }
+     .meet-us .cards .card{
+        width: 30vw;
+        height: 50vh;
+        gap: 0px;
+        border-radius:23.78px 23.78px 23.78px 23.78px;
+        border: 1.03px 0px 0px 0px;
+        opacity: 0px;
+        background: #D9D9D9;
+        border: 1.03px solid #C4C4C4;
+    
+    }
+    .meet-us .cards .card .card-img{
+        width: 100%;
+        height: 244.33px;
+        gap: 0px;
+        border-radius: 23.78px 23.78px 0px 0px;
+        opacity: 0px;
+        background: #D9D9D9;
+    }
+    .meet-us .cards .card .card-img img{
+        width: 100%;
+        height: 240px;
         gap: 0px;
         border-radius: 23.78px 23.78px 0px 0px;
         opacity: 0px;

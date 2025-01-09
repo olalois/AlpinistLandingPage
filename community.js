@@ -1,7 +1,7 @@
 let cards = [
     {
         id:1,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["./images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -9,7 +9,7 @@ let cards = [
     },
     {
         id:2,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -17,7 +17,7 @@ let cards = [
     },
     {
         id:3,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -25,7 +25,7 @@ let cards = [
     },
     {
         id:4,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -33,7 +33,7 @@ let cards = [
     },
     {
         id:5,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -41,7 +41,7 @@ let cards = [
     },
     {
         id:6,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -49,7 +49,7 @@ let cards = [
     },
     {
         id:7,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -57,7 +57,7 @@ let cards = [
     },
     {
         id:8,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -65,7 +65,7 @@ let cards = [
     },
     {
         id:9,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -73,7 +73,7 @@ let cards = [
     },
     {
         id:10,
-        image:"images/profile-picture.svg",
+        image:"images/BLAQ-0102-min.JPG",
         title:"President",
         name:"Akin-Thomas Bishop",
         socials: ["images/twiterlogo.svg", "images/instagramlogo.svg", "images/linkedinlogo.svg"],
@@ -108,3 +108,17 @@ function generateCards(){
     })
 }
 window.onload = generateCards()
+let hambugerNav = document.querySelector('.hambuger')
+let navBar = document.querySelector('.nav-elements')
+let close = document.querySelector(".close")
+
+
+hambugerNav.addEventListener('click', function(){
+    hambugerNav.style.display = "none"
+    navBar.style.display = "flex"
+});
+
+close.addEventListener('click', function(){
+    hambugerNav.style.display = "flex"
+    navBar.style.display = "none"
+})
