@@ -1,0 +1,5667 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.contact-container{
+    width: 100%;
+    /* background: brown; */
+    margin-top:60px;
+    padding-top: 50px;
+}
+.contact-container header{
+    width: 100%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    /* background: #560185; */
+}
+.contact-container .header-note{
+    width: 100%;
+    text-align: center;
+    /* background: violet; */
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #B6B6B6;
+}
+.contact-container .contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background: fuchsia; */
+    padding: 35px 0;
+    height: auto;
+}
+.contact-container .contact-form .flex-container{
+    width: 80vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
+    border-radius: 7px;
+    height: auto;
+    background-size:contain ;
+    /* background:greenyellow; */
+}
+.contact-container .contact-form .flex-container .flex-left{
+    width: 45vw;
+    height: 100%;
+    background: #0F172A;
+    border-radius: 10px;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    margin: 0px 0px;
+    
+}
+.contact-container .contact-form .flex-container .flex-left .left-info{
+    width: 100%;
+    padding: 20px;
+}
+.contact-container .contact-form .flex-container .flex-left .left-info .head{
+    font-family: Poppins;
+    width: auto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;   
+}
+.contact-container .contact-form .flex-container .flex-left .left-info .sub{
+    font-family: Poppins;
+    width: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+     
+}
+.contact-container .contact-form .flex-container .flex-left .reach-us{
+    /* background-color: black; */
+    width: auto;
+    padding: 20px;
+    height: auto; 
+}
+.contact-container .contact-form .flex-container .flex-left .reach-us ul{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+    color: #FFFFFF;
+}
+.contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF; 
+    list-style: none;   
+}
+.contact-container .contact-form .flex-container .flex-left  .social-handles{
+    width: 100%;
+    /* background-color: chocolate; */
+    padding: 20px; 
+}
+.contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+    text-decoration: none;
+}
+.contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+    list-style: none;
+}
+.contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+    width: 3vw;
+    height: 5vh;
+}
+.contact-container .contact-form .flex-container .flex-right{
+    width: 55vw;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+}
+.contact-container .contact-form .flex-container .flex-right form{
+    width: 100%;
+    height: auto;
+    /* background: darkcyan; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    gap: 70px;
+    padding-top: 20px;
+}
+.contact-container .contact-form .flex-container .flex-right form .names{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+.contact-container .contact-form .flex-container .flex-right form .names .firstname{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8D8D8D;    
+}
+.contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+    outline: none;
+    border-bottom: 2px solid #8D8D8D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 18vw;
+    padding: 5px 5px;
+    outline: none;
+}
+.contact-container .contact-form .flex-container .flex-right form .names .lastname{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8D8D8D;    
+}
+.contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+    outline: none;
+    border-bottom: 2px solid #8D8D8D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 18vw;
+    padding: 5px 5px;
+    outline: none;
+}
+.contact-container .contact-form .flex-container .flex-right form .contact{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+.contact-container .contact-form .flex-container .flex-right form .contact .email{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-container .contact-form .flex-container .flex-right form .contact .email label{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8D8D8D;    
+}
+.contact-container .contact-form .flex-container .flex-right form .contact .email input{
+    outline: none;
+    border-bottom: 2px solid #8D8D8D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 18vw;
+    padding: 5px 5px;
+    outline: none;
+}
+.contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8D8D8D;    
+}
+.contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+    outline: none;
+    border-bottom: 2px solid #8D8D8D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 18vw;
+    padding: 5px 5px;
+    outline: none;
+}
+.contact-container .contact-form .flex-container .flex-right form .message{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.contact-container .contact-form .flex-container .flex-right form .message label{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8D8D8D;    
+}
+.contact-container .contact-form .flex-container .flex-right form .message input{
+    outline: none;
+    border-bottom: 2px solid #8D8D8D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 40vw;
+    padding: 10px 7px;
+    outline: none;
+}
+.contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8D8D8D;
+    
+}
+.contact-container .contact-form .flex-container .flex-right form .thebutton{
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+.contact-container .contact-form .flex-container .flex-right form .thebutton button{
+    width: 12vw;
+    height: 8vh;
+    border-radius: 7px;
+    opacity: 0px;
+    background: #560185;
+    color: #FBFBFB;
+    font-family: Poppins;
+    font-size: 15.96px;
+    font-weight: 400;
+    line-height: 23.93px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:429px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:40px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 100%;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 80%;
+        padding: 20px;
+        /* background-color: aquamarine; */
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 80%;
+        /* background-color: chocolate; */
+        padding: 10px 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 8vw;
+        height: 4vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 100%;
+        background-color: white;
+        padding: 0px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 30vw;
+        height: 5vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:430px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:40px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 100%;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 80%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 90%;
+        /* background-color: chocolate; */
+        padding: 10px 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 8vw;
+        height: 4vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 100%;
+        background-color: white;
+        padding: 0px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 30vw;
+        height: 5vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:540px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:40px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 100%;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 80%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 90%;
+        /* background-color: chocolate; */
+        padding: 10px 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 5vw;
+        height: 4vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 100%;
+        background-color: white;
+        padding: 0px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 22vw;
+        height: 7vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:667px) and (orientation:landscape) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:40px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 100%;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 80%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 90%;
+        /* background-color: chocolate; */
+        padding: 10px 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 7vw;
+        height: 12vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 100%;
+        background-color: white;
+        padding: 0px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 22vw;
+        height: 10vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:720px) and (orientation:landscape) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:40px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 100%;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 80%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 90%;
+        /* background-color: chocolate; */
+        padding: 10px 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 5vw;
+        height: 7vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 100%;
+        background-color: white;
+        padding: 0px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 22vw;
+        height: 7vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:740px) and (orientation:landscape) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:40px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 100%;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 80%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 90%;
+        /* background-color: chocolate; */
+        padding: 10px 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 5vw;
+        height: 10vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 100%;
+        background-color: white;
+        padding: 0px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 22vw;
+        height: 12vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:768px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:60px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 80%;
+        /* background-color: chocolate; */
+        padding: 10px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 3vw;
+        height: 2vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 15vw;
+        height: 4vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:820px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:80px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 85%;
+        /* background-color: chocolate; */
+        padding: 10px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 3vw;
+        height: 2vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 15vw;
+        height: 4vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:844px) and (orientation:landscape) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:120px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width:80%;
+        /* background-color: chocolate; */
+        padding: 10px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 5vw;
+        height: 10vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 15vw;
+        height: 10vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:853px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:120px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width:80%;
+        /* background-color: chocolate; */
+        padding: 10px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 3vw;
+        height: 2vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 15vw;
+        height: 4vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:882px) and (orientation:landscape) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:120px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width:80%;
+        /* background-color: chocolate; */
+        padding: 10px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 5vw;
+        height: 10vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 15vw;
+        height: 10vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:912px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:120px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 80%;
+        /* background-color: chocolate; */
+        padding: 10px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 3vw;
+        height: 2vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 15vw;
+        height: 4vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:912px) and (orientation:landscape) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:120px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: blue; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 90%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 80%;
+        /* background-color: chocolate; */
+        padding: 10px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 5vw;
+        height: 9vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 15vw;
+        height: 10vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:1024px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:60px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: violet; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 80vw;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 85%;
+        /* background-color: chocolate; */
+        padding: 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 3vw;
+        height: 5vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 12vw;
+        height: 8vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:1024px) and (orientation:portrait) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:200px;
+        padding-top: 50px;
+       
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: violet; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 80vw;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 85%;
+        /* background-color: chocolate; */
+        padding: 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 5vw;
+        height: 4vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 20vw;
+        height: 4vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:1280px) {
+    .contact-container{
+        width: 100%;
+        /* background: brown; */
+        margin-top:60px;
+        padding-top: 50px;
+    }
+    .contact-container header{
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        /* background: #560185; */
+    }
+    .contact-container .header-note{
+        width: 100%;
+        text-align: center;
+        /* background: violet; */
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #B6B6B6;
+    }
+    .contact-container .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: fuchsia; */
+        padding: 35px 0;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container{
+        width: 80vw;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border-radius: 7px;
+        height: auto;
+        background-size:contain ;
+        /* background:greenyellow; */
+    }
+    .contact-container .contact-form .flex-container .flex-left{
+        width: 45vw;
+        height: 100%;
+        background: #0F172A;
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        margin: 0px 0px;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .head{
+        font-family: Poppins;
+        width: auto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left .left-info .sub{
+        font-family: Poppins;
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+         
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us{
+        /* background-color: black; */
+        width: auto;
+        padding: 20px;
+        height: auto; 
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a span{
+        color: #FFFFFF;
+    }
+    .contact-container .contact-form .flex-container .flex-left .reach-us ul a li{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF; 
+        list-style: none;   
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles{
+        width: 90%;
+        /* background-color: chocolate; */
+        padding: 20px; 
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a{
+        text-decoration: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li{
+        list-style: none;
+    }
+    .contact-container .contact-form .flex-container .flex-left  .social-handles ul a li img{
+        width: 3vw;
+        height: 5vh;
+    }
+    .contact-container .contact-form .flex-container .flex-right{
+        width: 55vw;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .contact-container .contact-form .flex-container .flex-right form{
+        width: 100%;
+        height: auto;
+        /* background: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        gap: 70px;
+        padding-top: 20px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .firstname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .names .lastname input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .email input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .contact .phonenumber input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 18vw;
+        padding: 5px 5px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message label{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input{
+        outline: none;
+        border-bottom: 2px solid #8D8D8D;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 40vw;
+        padding: 10px 7px;
+        outline: none;
+    }
+    .contact-container .contact-form .flex-container .flex-right form .message input::placeholder{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #8D8D8D;
+        
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton{
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contact-container .contact-form .flex-container .flex-right form .thebutton button{
+        width: 12vw;
+        height: 8vh;
+        border-radius: 7px;
+        opacity: 0px;
+        background: #560185;
+        color: #FBFBFB;
+        font-family: Poppins;
+        font-size: 15.96px;
+        font-weight: 400;
+        line-height: 23.93px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}

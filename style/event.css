@@ -65,6 +65,9 @@
     text-decoration-skip-ink: none;
     color: #FFFFFF;
 }
+.events .overlay button a{
+    text-decoration: none;
+}
 .events .overlay button{
     width: 12vw;
     height: 8vh;
